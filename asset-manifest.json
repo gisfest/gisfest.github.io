@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed0d3bff.css",
-    "main.js": "/static/js/main.3e6b02a6.js",
+    "main.css": "/static/css/main.5737db1e.css",
+    "main.js": "/static/js/main.45ba031b.js",
     "static/media/hero-bg.png": "/static/media/hero-bg.4387a6e8a49bb34b5f07.png",
     "static/media/oladejo_olasunkanmi.webp": "/static/media/oladejo_olasunkanmi.e05e4a7080d8b185fdee.webp",
     "static/media/shehu_muhammed.webp": "/static/media/shehu_muhammed.4717eb25f4ddff1443a0.webp",
@@ -20,6 +20,7 @@
     "static/media/logistic.svg": "/static/media/logistic.ee0a3b11af79ed23b4cbd02168e08c72.svg",
     "static/media/funds.svg": "/static/media/funds.059e21d701c4b3ebc43e32ef89bfeaf2.svg",
     "static/media/speaker.svg": "/static/media/speaker.e70dc6d39b097e3f25b8a9ba3b02b142.svg",
+    "static/media/Github.svg": "/static/media/Github.cc9cdd7a4a7273f672dbf8d2cc391166.svg",
     "static/media/invitation.svg": "/static/media/invitation.eca0064d1a8f75abd66e3d440828fed3.svg",
     "static/media/media.svg": "/static/media/media.1418afd7c84f64f4c929cda204c38153.svg",
     "static/media/budget.svg": "/static/media/budget.00f5fe00aa0768e175b7be7b95031501.svg",
@@ -28,11 +29,11 @@
     "static/media/youtube.svg": "/static/media/youtube.4fe0e9f8d764f804ede8f63ee8c305d0.svg",
     "static/media/gmail_logo.svg": "/static/media/gmail_logo.20655b56fa303c58b95b302aa6b15391.svg",
     "index.html": "/index.html",
-    "main.ed0d3bff.css.map": "/static/css/main.ed0d3bff.css.map",
-    "main.3e6b02a6.js.map": "/static/js/main.3e6b02a6.js.map"
+    "main.5737db1e.css.map": "/static/css/main.5737db1e.css.map",
+    "main.45ba031b.js.map": "/static/js/main.45ba031b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed0d3bff.css",
-    "static/js/main.3e6b02a6.js"
+    "static/css/main.5737db1e.css",
+    "static/js/main.45ba031b.js"
   ]
 }
