@@ -37,6 +37,10 @@ ul {
   display: flex;
   justify-content: center;
 }
+.flextext{
+  display: flex;
+  align-items: center;
+}
 
 
 
@@ -44,10 +48,6 @@ ul {
   width: 80%;
   margin: 40px auto;
 }
-
-
-
-
 
 :root{
   --brand-red:#c91f64;

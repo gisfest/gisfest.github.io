@@ -98,6 +98,11 @@ export const MenuItems=[
         "url": "/team#top",
         "cName": "nav-link"
      },
+     {
+        "title": "Call For Speakers",
+        "url": "/call_for_speakers",
+        "cName": "nav-link"
+     }
        
 ]
 
@@ -112,7 +117,7 @@ export const footerMenuItems = [
      },
      {
         "title": "Organizing Team",
-        "url": "/team#top",
+        "url": "/team",
         "sign": "|"
      },
     //  {
@@ -137,8 +142,9 @@ export const footerMenuItems = [
     //  },
      {
         "title": "FAQS",
-        "url": "/faqs#top"
+        "url": "/faqs"
      },
+    
 ]
 
 // All Team's data 
@@ -440,5 +446,100 @@ export const speakerData = [
         "lesson": "Lessons learned from a building footprints import",
         "picture": oluwadamilola_salua
 
+    }
+]
+
+
+//session data 
+export const CallForSpeakersSessionDetails = [
+    {
+        "sessionType": "Workshop - Technical deep dive into tool and techniques implementation",
+        "sessionInfo": "We are looking for workshop focused on the following areas:",
+        "sessionAreas": [
+                {
+                    "Name": "Geodev",
+                    "info":" – WebGIS  / Python/JavaScript etc.",
+                    "Description": "As our spatially enabled society grows, so does the need to create functional and usable webmaps, visualizations and expand coding capabilities. The geospatial development workshop is designed to teach and expose conference participants to different techniques for geospatial development by utilizing different tools such as python, JavaScript etc."
+                },
+                {
+                    "Name": "Spatial Analytics",
+                    "info":" – Methodologies / UAV data processing etc.",
+                    "Description": "Spatial Analytics remains the backbone of all decision-making. In order to fully reach an appropriate conclusion, we utilize location as the connective thread to uncover hidden patterns, improve predictive modeling, and create a competitive edge. For the Spatial Analytics section, participants will get to interact with case studies that evoke critical spatial cognition thinking to create appropriate geo visualization that is backed by solid geostatistical theory"
+                },
+                {
+                    "Name": "Geo AI",
+                    "info":" – Machine learning, Deep learning etc.",
+                    "Description": "The science and technology of Geo AI have come a long way. Today’s executives are thinking about areas including market planning, site selection, product selection, price optimization, where they want to use Geo AI to better anticipate outcomes for their business and make better decisions based on these insights. For the Geo AI session, participants will get to learn different Geo AI techniques and tools that can be useful to them as an individual or corporate entity."
+                },
+                {
+                    "Name": "Cloud Computing",
+                    "info":" – GEE / Cloud platform etc.",
+                    "Description": "With the growth of data in every sphere of our life. Data can be mined and stored by virtually all sensors around us making the amount of data for processing too much to handle by a standalone computer. To mitigate these issues and provide scalability, cloud computing has become an on-demand tool for data storage and processing. In the geospatial industry,  this comes as a collection of geospatial datasets and satellite imageries with on-the-go scale analysis tools. In this section, participants will get to learn,  interact and utilise the most popular cloud computing platforms and resources."
+                },
+
+        ]
+    },
+    {
+        "sessionType": "  Geo Innovation - Innovative/Enterprise use case of geospatial technology -Innovative solution integrating geospatial technology. ",
+        "sessionInfo": "We are looking for workshop focused on the following areas:",
+        "sessionAreas": [
+            {
+                "Name": "Transportation and Logistics",
+                "Description": ""
+            },
+            {
+                "Name": "Fintech and Blockchain technology",
+                "Description": ""
+            },
+            {
+                "Name": "Ocean conservation and Management",
+                "Description": ""
+            },
+            {
+                "Name": "Security and Defense",
+                "Description": ""
+            },
+            {
+                "Name": "Utility Distribution",
+                "Description": ""
+            },
+            {
+                "Name": "Retail and e-commerce ",
+                "Description": ""
+            },
+            {
+                "Name": "Health",
+                "Description": ""
+            },
+            {
+                "Name": "Climate change and Green transitioning",
+                "Description": ""
+            },
+            {
+                "Name": "Urban planning and Smart City ",
+                "Description": ""
+            },
+            {
+                "Name": "Oil, Gas, and Solid Minerals",
+                "sessionAreaDescription": ""
+            },
+            {
+                "Name": "Resource Allocation",
+                "Description": ""
+            },
+            {
+                "Name": "Food Security, Forestry, and Agriculture",
+                "Description": ""
+            },
+            {
+                "Name": "Telecommunication",
+                "Description": ""
+            },
+
+            {
+                "Name": "Waste Management ",
+                "Description": ""
+            },
+        ]
     }
 ]

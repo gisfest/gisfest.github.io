@@ -7,6 +7,7 @@ import Team from './pages/Team/Team';
 import Footer from './components/Footer/Footer';
 // import Gallery from './pages/Gallery/Gallery';
 import FAQS from './pages/FAQS/FAQS';
+import CallForSpeakers from './pages/Call_for_speakers/CallForSpeakers';
 // import Travel from './pages/Travel/Travel';
 // import Schedule from './pages/Schedule/Schedule';
 // import CallForPaper from './pages/Call_for_paper/CallForPaper';
@@ -24,6 +25,7 @@ function App() {
           {/* <Route path="/gallery" element={<Gallery/>}/>*/}
           {/*<Route path="/travel" element={<Travel />}/>*/}
           <Route path="/faqs" element={<FAQS />}/>
+          <Route path="/call_for_speakers" element={<CallForSpeakers />}/>
           {/*<Route path="/CallForPaper" element={<CallForPaper />}/>*/}
           {/*<Route path="/schedule" element={<Schedule />}/>*/}
         </Routes>
