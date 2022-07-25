@@ -7,6 +7,7 @@ const PageHeader=({title,color})=>{
     return(
         <div className='teamheader-container flexbox' style={{backgroundColor:color}}>
           <h2>{title}</h2>
+         
         </div>
     )
 }

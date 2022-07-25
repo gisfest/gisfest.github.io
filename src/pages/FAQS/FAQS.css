@@ -1,9 +1,9 @@
 .FAQ-container {
     border-radius: 5px;
-    margin: 40px 0;
-    width: 90%;
+    margin: 20px 0;
+    width: 100%;
     background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(255, 255, 255, 0.23) 0px 3px 6px;
     cursor: pointer;
 }
 
@@ -18,12 +18,12 @@
     width: 100%;
     line-height: 25px;
     display: none;
-    border-top: 1px solid rgb(128, 127, 127) ;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    -ms-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+    border-top: 0.2px solid var(--brand-red) ;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    transition: all 1s ease-in;
     
 }
 

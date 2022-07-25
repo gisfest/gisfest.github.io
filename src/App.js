@@ -5,15 +5,15 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import HomePage from './pages/Home/Home';
 import Team from './pages/Team/Team';
 import Footer from './components/Footer/Footer';
-import Gallery from './pages/Gallery/Gallery';
+// import Gallery from './pages/Gallery/Gallery';
 import FAQS from './pages/FAQS/FAQS';
-import Travel from './pages/Travel/Travel';
-import Schedule from './pages/Schedule/Schedule';
-import CallForPaper from './pages/Call_for_paper/CallForPaper';
+// import Travel from './pages/Travel/Travel';
+// import Schedule from './pages/Schedule/Schedule';
+// import CallForPaper from './pages/Call_for_paper/CallForPaper';
 
 
 function App() {
-  
+
   return (
     <div className="main">
       <Router>
@@ -21,11 +21,11 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomePage />}/>
           <Route path="/team" element={<Team />}/>
-          <Route path="/gallery" element={<Gallery/>}/>
-          <Route path="/travel" element={<Travel />}/>
-          <Route path="/FAQS" element={<FAQS />}/>
-          <Route path="/CallForPaper" element={<CallForPaper />}/>
-          <Route path="/schedule" element={<Schedule />}/>
+          {/* <Route path="/gallery" element={<Gallery/>}/>*/}
+          {/*<Route path="/travel" element={<Travel />}/>*/}
+          <Route path="/faqs" element={<FAQS />}/>
+          {/*<Route path="/CallForPaper" element={<CallForPaper />}/>*/}
+          {/*<Route path="/schedule" element={<Schedule />}/>*/}
         </Routes>
         <Footer />
       </Router>

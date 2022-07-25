@@ -1,26 +1,25 @@
 const fs = require("fs");
 const globby = require("globby");
-const prettier = require("prettier");
-
+const prettier= require("prettier");
 (async () => {
-  const prettierConfig = await prettier.resolveConfig("./.prettierrc");
 
   const pages = await globby([
-    "src/pages/**/*.{js,jsx,ts,tsx,mdx}", // All routes inside src/pages
+    "src/pages/**/*.{js,jsx}", // All routes inside src/pages
   ]);
   const sitemap = `
   <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            ${pages
+            ${pages.filter((page)=>page !== 'src/pages/ComingSoon/ComingSoon.jsx' && page !== 'src/pages/SEO.js')
               .map((page) => {
-                const path = page.replace("src/pages", "").replace(/\.[^/.]+$/, ""); // Remove "src/pages" and file extension
-                const indexPath = path === "/index";
-                const route = indexPath ? path.replace("/index", "/") : path;
+               
+                const path = page.split('/')[2].replace(/\.[^/.]+$/, "").toLowerCase(); // Remove "src/pages" and file extension
+                const indexPath = path === "home";
+                const route = indexPath ? path.replace("home", "") : path;
                 const changeFreq = "<changefreq>weekly</changefreq>";
                 const priority = indexPath ? "<priority>1.00</priority>" : "<priority>0.80</priority>";
                 return `
                         <url>
-                            <loc>${`https://gisfest.org${route}`}</loc>
+                            <loc>${`https://gisfest.org/${route}`}</loc>
                             <lastmod>${new Date().toISOString()}</lastmod>
                             ${changeFreq}
                             ${priority}
@@ -32,7 +31,6 @@ const prettier = require("prettier");
     `;
 
   const formatted = prettier.format(sitemap, {
-    ...prettierConfig,
     parser: "html"
   });
 

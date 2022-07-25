@@ -29,12 +29,7 @@ import oluwadamilola_salua from '../media/images/team/oluwadamilola_salau.webp';
 export const socialMediaLinks=[
     {
         "social":"Gmail",
-        "url":"mailto:gisfestival@gmail.com",
-        "handle":"GIS Festival"
-    },
-    {
-        "social":"Youtube",
-        "url":"#",
+        "url":"mailto:support@gisfest.org",
         "handle":"GIS Festival"
     },
     {
@@ -64,39 +59,45 @@ export const socialMediaLinks=[
 export const MenuItems=[
     {
        "title": "Home",
-       "url": "/",
+       "url": "/#top",
        "cName": "nav-link"
     },
-    {
-        "title": "Schedule",
-        "url": "/schedule",
-        "cName": "nav-link"
-     },
-     {
-        "title": "Travel",
-        "url": "/travel",
-        "cName": "nav-link"
-     },
-     {
-        "title": "Team",
-        "url": "/team",
-        "cName": "nav-link"
-     },
-     {
-        "title": "Gallery",
-        "url": "/gallery",
-        "cName": "nav-link"
-     },
+    // {
+    //     "title": "Schedule",
+    //     "url": "/schedule",
+    //     "cName": "nav-link"
+    //  },
+    //  {
+    //     "title": "Travel",
+    //     "url": "/travel",
+    //     "cName": "nav-link"
+    //  },
+    //  {
+    //     "title": "Hackhathon",
+    //     "url": "/hackathon",
+    //     "cName": "nav-link"
+    //  },
+    
+    //  {
+    //     "title": "Gallery",
+    //     "url": "/gallery",
+    //     "cName": "nav-link"
+    //  },
      {
         "title": "FAQS",
-        "url": "/FAQS",
+        "url": "/faqs#top",
         "cName": "nav-link"
      },
-     {  
-        "title": "Call for Paper",
-        "url": "/CallForPaper",
+    //  {  
+    //     "title": "Call for Paper",
+    //     "url": "/CallForPaper",
+    //     "cName": "nav-link"
+    //  },
+     {
+        "title": "Team",
+        "url": "/team#top",
         "cName": "nav-link"
-     }
+     },
        
 ]
 
@@ -105,28 +106,38 @@ export const MenuItems=[
 export const footerMenuItems = [
   
     {
+        "title": "Subscribe",
+        "url": "/#email-subscription",
+        "sign": "|"
+     },
+     {
         "title": "Organizing Team",
-        "url": "/team",
+        "url": "/team#top",
         "sign": "|"
      },
-     {
-        "title": "Schedule",
-        "url": "/schedule",
-        "sign": "|"
-     },
-     {
-        "title": "Travel",
-        "url": "/travel",
-        "sign": "|"
-     },
-      {
-        "title": "Gallery",
-        "url": "/gallery",
-        "sign": "|"
-     },
+    //  {
+    //     "title": "Schedule",
+    //     "url": "/schedule",
+    //     "sign": "|"
+    //  },
+    //  {
+    //     "title": "Hackathon",
+    //     "url": "/hackathon",
+    //     "sign": "|"
+    //  },
+    //  {
+    //     "title": "Travel",
+    //     "url": "/travel",
+    //     "sign": "|"
+    //  },
+    //   {
+    //     "title": "Gallery",
+    //     "url": "/gallery",
+    //     "sign": "|"
+    //  },
      {
         "title": "FAQS",
-        "url": "/FAQS"
+        "url": "/faqs#top"
      },
 ]
 
@@ -250,24 +261,56 @@ export const teamData = [
 export const FAQData = [
     {
         "id": 0,
-        "Question":"Do I have to pay/register to attend SotM Online ?",
-        "Answer":"No, SotM2020 Online is free to attend and no registration is required."
+        "Question":"When and where will GISFest take place?",
+        "Answer":"GISFest will take place on the 11-12th of November. The conference will take place at Lagos, Nigeria."
     },
     {
         "id": 1,
-        "Question":"How can I watch the talks ?",
-        "Answer":"The talks from the main track and the academic track will be streamed on streaming.media.ccc.de. You’ll find the link prominently displayed at the top of the SotM Homepage."
+        "Question":"What is the ticket cost for GISFest?",
+        "Answer":"The ticket cost is $10USD for students and $30 for Professionals. Transactions will be charged in your local currency."
     },
     {
         "id": 2,
-        "Question":"How are the sessions structured ?",
-        "Answer":"Sessions will start with a 20min talk, then Q&A (see below), and a transition into the next talk. 45min in total"
+        "Question":"What is included in the ticket?",
+        "Answer":"You will receive access to GISFest (in-person) including the hackathon, trainings, certification, workshops, all sessions, all meals and all social activities."
      },
     {
         "id": 3,
-        "Question":"How can I interact with the speakers and other members of the audience ?",
-        "Answer":"You can interact with the speakers by asking questions in the Question & Answer sessions. You can interact with others in the self-organized sessions and in the community channels."
-    }
+        "Question":"What is the refund policy?",
+        "Answer":"Tickets are non-refundable, but they are transferable. In case of emergencies, please email support@gisfest.org."
+    },
+    {
+        "id": 4,
+        "Question":"What is the refund policy?",
+        "Answer":"Tickets are non-refundable, but they are transferable. In case of emergencies, please email support@gisfest.org."
+    },
+    {
+        "id": 5,
+        "Question":"How do I become a Speaker?",
+        "Answer":"Submit your session ideas to the call for proposals by September 31st, 2022."
+    },
+    {
+        "id": 6,
+        "Question":"How do I become a Sponsor?",
+        "Answer":" If you have questions about sponsorship, please email sponsor@gisfest.org."
+    },
+    {
+        "id": 7,
+        "Question":"Will sessions be recorded?",
+        "Answer":"All conference sessions at GISFest 2022 will be recorded and available to attendees after the event."
+    },
+    {
+        "id": 8,
+        "Question":"I am coming from abroad and will need invitation letter for Visa application, what is the procedure?",
+        "Answer":`Please send a request to visa@gisfest.org and include the following (Full name of person for whom you are requesting the letter, Date of Birth,
+            Passport Number and include Country of Issuance, issue date and expiration date, Job Title, Company Name)`
+    },
+    {
+        "id": 9,
+        "Question":"Who should I contact if I have questions?",
+        "Answer":`Please email support@gisfest.org if you have questions.`
+    },  
+
 ]
 
 

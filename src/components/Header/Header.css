@@ -53,6 +53,15 @@
     cursor: pointer;
 }
 
+.nav-btn a{
+    color:black;
+}
+
+.nav-btn a:hover{
+    color:white;
+}
+
+
 .nav-btn:hover {
     color: var(--brand-yellow);
     background-color: var(--brand-green);
