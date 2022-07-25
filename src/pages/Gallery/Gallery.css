@@ -1,4 +1,15 @@
 .gallery-conatiner {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: var(--gallery-container-grid-template-columns);
     gap: 30px;
+    text-align: center;
+}
+
+.picture {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ 
+.picture img {
+    width:100%;
 }

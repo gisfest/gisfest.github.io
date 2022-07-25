@@ -1,0 +1,10 @@
+.travel-content p,
+.travel-content ul {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.travel-content h3 {
+    font-size: 22px;
+}

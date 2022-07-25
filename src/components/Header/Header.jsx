@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './Header.css';
 import { MenuItems } from '../../utils/data';
 import logo_Black from '../../media/icons/Logo_Black.svg';
@@ -19,7 +19,10 @@ const Header = () => {
       }
     }
 
-    window.addEventListener("scroll", fixHeaderOnScroll);
+    useEffect(()=>{
+      window.addEventListener("scroll", fixHeaderOnScroll);
+    },[fixHeader])
+   
   
     const handleClick = () =>setClick(!click);
 
@@ -32,7 +35,7 @@ const Header = () => {
             {MenuItems.map((item,index) => {
                 return (
                     <li key={index}>
-                        <NavLink exact="true" to={item.url} onClick={handleClick} className={({ isActive:isactive }) => isactive ? "nav-link-active" : `${item.cName}`}>
+                        <NavLink exact="true" to={item.url} onClick={handleClick} className={({ isActive:isNavActive }) => isNavActive ? "nav-link-active" : `${item.cName}`}>
                         {item.title}
                         </NavLink>  
                     </li>
@@ -40,16 +43,16 @@ const Header = () => {
             })}
             
             <div className='btn'>
-              <NavHashLink smooth to='/#email-subscription'>
                 <button className='nav-btn' >
-                    Subscribe 
+                  <a href='https://docs.google.com/forms/d/e/1FAIpQLSdSnXsxJcOtaP3WHr2k3VjY28tbBXuv9C2cYsBeSTrI_2_hzg/viewform?usp=sf_link' target={'blank_'}>
+                  Subscribe ➚
+                  </a>
                 </button>
-              </NavHashLink>
             </div>
             </ul>
-        <div className='nav-menu-mobile' onClick={handleClick} >
-          {click ? <FaTimes className='Icon' /> : <FaBars className="Icon" />     } 
-        </div>
+          <div className='nav-menu-mobile' onClick={handleClick} >
+            {click ? <FaTimes className='Icon' /> : <FaBars className="Icon" />     } 
+          </div>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Gallery.css';
 import PageHeader from '../../components/PageHeader/PageHeader';
 import pic_1 from "../../media/images/gallery/Rectangle_36.jpg"
@@ -11,41 +11,42 @@ import pic_7 from "../../media/images/gallery/Rectangle_42.jpg"
 import pic_8 from "../../media/images/gallery/Rectangle_43.jpg"
 import pic_9 from "../../media/images/gallery/Rectangle_44.jpg"
 import pic_10 from "../../media/images/gallery/Rectangle_45.jpg"
-
+import SEO from '../SEO';
 
 const Gallery = () => {
   return (
     <div className="main-content" id="#top">
+    <SEO title={'Gallery -- GIS Festival 2022'} url={'https://gisfest.org/gallery'}/>
         <PageHeader title={'Gallery'} color={'#084f41'} />
-        <div className='gallery-conatiner page-content grid-container'>
-            <div>
+        <div className='gallery-conatiner page-content  grid-container'>
+            <div className='picture'>
                 <img src={pic_1} alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_2}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_3}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_4}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_5}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_6}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_7}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_8}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_9}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_10}  alt="gallery one" />
             </div>
         </div>

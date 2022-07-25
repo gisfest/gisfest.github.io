@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+  import React, { useState } from 'react';
 import './Schedule.css';
 import PageHeader from '../../components/PageHeader/PageHeader';
 import { agendaData, speakerData } from '../../utils/data';
+import SEO from '../SEO';
 
 const Schedule = () => {
   const types = ['Agenda', 'Sessions', 'Speakers']
@@ -10,14 +11,15 @@ const Schedule = () => {
 
   return (
     <div className="main-content" id="#top">
+    <SEO title={'Schedule -- GIS Festival 2022'} url={'https://gisfest.org/schedule'}/>
       <PageHeader title={'Schedule'} color={'#084f41'} />
       <div className='page-content schedule-container '>              
               <div className='flexbox navigation'>
-              {types.map((type,index) => {
-                return (
-               <div key={index} onClick={() => setActive(type)} className={active === type ? "button active" : "button"}>{type}</div>
-               )
-              })}
+                {types.map((type,index) => {
+                  return (
+                <div key={index} onClick={() => setActive(type)} className={active === type ? "button active-button" : "button"}>{type}</div>
+                )
+                })}
                </div>
               {active === "Agenda" ? 
               <div className='agenda-content'>

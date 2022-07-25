@@ -21,6 +21,10 @@ input {
     width: 60%;
 }
 
+button a{
+    text-decoration: none;
+    color: white;
+}
 button{
     background-color: black;
     color: white;

@@ -11,8 +11,9 @@
     grid-area: header;
     background-image: url('../../../public/assets/hero-bg.png');
     background-repeat: no-repeat; 
-    height: 100vh;
+    height: var( --hero-height);
     background-size: cover;
+    background-position: var(--hero-background-position);
 }
 
 .hero-content{
@@ -28,28 +29,42 @@
     color:#fff;
     padding: 3rem;
     text-align: center;
-    width: 60%;
+    width: var(--hero-info-width);
     opacity: 0.8;
+   
+}
+
+.hero-info h2 {
+    font-size:var(--hero-info-h2-font-size);
 }
 
 main{
     background: black;
     color: white;
     width: 100%;
-    padding: 6%;
+    padding: 2%;
     padding-bottom: 65px;
+    display: grid;
+    grid-template-columns: var(--main-grid-template-columns);
+    gap: var(--main-gap);
+}
+
+.main-about {
+    width:var(--main-about-width);
 }
 
 main p{
-    font-size: 15px;
+    font-size: var(--home-main-p-font-size);
     margin-top:40px;
     text-align: justify;
+    line-height: var(--home-main-p-line-height);
 }
 
 
 main h1{
     margin-top: 30px;
     text-transform: uppercase;
+    font-size: 40px;
 }
 
 main h1:nth-child(odd){
@@ -76,55 +91,5 @@ main h1:nth-child(even){
 .hero-content{
     padding-top: 10vh;
 }
-
-}
-
-
-
-@media screen and (max-width:500px) {
-
-    .hero-info{
-        width: 90%;
-    }
-    .hero-info h2{
-        font-size: 18px;
-    }
-      
-    main p{
-        font-size: 15px;
-        line-height: 30px;
-    }
-
-    .hero{ 
-        height: 55vh;
-        background-position: center;
-    }
-
-
-}
-
-
-@media screen and (min-width:750px) {
-
-    main{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap:10px;
-    }
-
-    
-    .main-about {
-        width:420px;
-    }
-    main p{
-        font-size: 20px;
-        line-height: 35px;
-    }
-
-
-    main h1{
-        font-size: 40px;
-    }
-
 
 }

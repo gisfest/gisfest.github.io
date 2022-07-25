@@ -1,9 +1,10 @@
 .FAQ-container {
-    border: 2px solid;
     border-radius: 5px;
-    margin: 40px 0;
-    width: 60%;
-    background-color: rgb(216, 214, 214);
+    margin: 20px 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(255, 255, 255, 0.23) 0px 3px 6px;
+    cursor: pointer;
 }
 
 .question-content {
@@ -13,20 +14,27 @@
 }
 
 .answer-content {
-    padding: 20px;
+    padding: 25px;
     width: 100%;
-    height: 88px;
+    line-height: 25px;
     display: none;
-    border-top: 1px solid rgb(128, 127, 127) ;
+    border-top: 0.2px solid var(--brand-red) ;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    
 }
 
 .icon {
-    width: 35px;
-    height: 25px;
+    width: 20px;
+    height: 22px;
     color: black;
 }
 
 
-.active {
+.active-answer {
     display: block;
 }
+

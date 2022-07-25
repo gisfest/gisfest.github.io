@@ -1,25 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,600;1,200;1,300&display=swap');
 
 
-
-:root{
-  --brand-red:#c91f64;
-  --brand-green:#084f41;
-  --brand-yellow:#f49c0f;
-  --brand-purple:#62156f;
-<<<<<<< HEAD
-  --background-white: #f2f2f2;
-
-
-  /* FOOTER STYLES  */
-  
-=======
-  --background-white: #f2f2f2; 
-  --background-black: #0B111A;
->>>>>>> refs/remotes/origin/v2.0
-}
-
-
 * { 
   padding: 0;
   margin: 0;
@@ -30,36 +11,14 @@ html {
   scroll-behavior: smooth;
 }
 
-<<<<<<< HEAD
-=======
 
-/**** for Comming soon page  ****/
-/* body {
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(255, 255, 255);
-  background: url("../media/images/background_image.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-}
-body::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(49, 48, 48, 0.8);
-  min-height:100vh;
-} */
-
-
-
->>>>>>> refs/remotes/origin/v2.0
 body {
   width: 100%;
   height: 100vh;
   font-family: "Montserrat";
   background-color: var(--background-white) ;
+  scroll-behavior: smooth;
+
 }
 
 a {
@@ -82,9 +41,75 @@ ul {
 
 
 .page-content {
-  width: 90%;
+  width: 80%;
   margin: 40px auto;
 }
+
+
+
+
+
+:root{
+  --brand-red:#c91f64;
+  --brand-green:#084f41;
+  --brand-yellow:#f49c0f;
+  --brand-purple:#62156f;
+  --background-white: #f2f2f2; 
+  --background-black: #0B111A;
+
+  /* Header Styling */
+
+  --nav-menu-mobile-display: none;
+  --nav-btn-padding: 10px;
+  --nav-link-hover-background-color:none;
+
+
+   /* Team Styling */
+
+  --team-name-gap: 15px;
+  --team-name-line-height: 40px;
+
+  --team-title-font-size: 32px;
+  --team-member-card-gap: 80px;
+
+
+
+
+    /* Home Styling */
+
+  --hero-info-width: 60%;
+  --hero-info-h2-font-size:1.5em;
+  --hero-height: 100vh;
+  --hero-background-position: none;
+
+  --home-main-p-font-size: 20px;
+  --home-main-p-line-height: 35px; 
+
+
+    /* Gallery */
+   --gallery-container-grid-template-columns: 1fr 1fr;
+
+  /* Home  */
+
+  --main-grid-template-columns:1fr 1fr;
+
+      /* Schedule */
+     --button-padding: 20px;
+     --button-font-size:20px;
+
+
+     --agenda-time-padding: 20px;
+     --agenda-time-width: 12%;
+     --agenda-time-font-size: 17px;
+
+
+    /* Callforpaper page styling */
+     --columnn-2-grid-template-columns: 70% 30%;
+     --poster-deadline-height: 330px;
+    --poster-deadline-width:90%;
+}
+
+
 
 
 
@@ -92,21 +117,164 @@ ul {
   .page-content {
     width: 90%;
   }
+  :root {
+    --team-member-card-align-itmes: center;
+    --team-member-card-flex-direction:column;
+
+    /* Schedule page  */
+    --speaker-container-flex-direction:column;
+    --speaker-container-picture-height:400px;
+    --speaker-container-picture-width:100%;
+    --main-grid-template-columns:1fr;
+  }
 }
 
-@media screen and (max-width: 550px)  {
-<<<<<<< HEAD
+
+
+
+@media screen and (max-width: 501px)  {
+    :root{
+      --main-p-font-size: 20px;
+      --main-p-line-height:35px;
+
+
+        /* Home Styling */
+      --hero-info-width: 90%;
+      --hero-info-h2-font-size:18px;
+      
+
+
+      --hero-height: 55vh;
+      --hero-background-position: center;
+      --main-grid-template-columns: 1fr;
+
+      --home-main-p-font-size: 15px;
+      --home-main-p-line-height: 30px; 
+
+
+      /* Gallery */
+
+      --gallery-container-grid-template-columns: 1fr;
+
+      /* Schedule */
+      --button-padding: 13px;
+      --button-font-size:16px;
+      --agenda-time-padding: 0;
+
+       --speaker-container-flex-direction:column;
+
+
+  }
 }
 
 
-@media screen and (max-width: 750px){
+
+
+
+@media screen and (max-width: 550px) {  
+  :root{
+      /* Team Component styling */
+      --team-member-card-align-items: center;
+      --team-member-card-display: flex ;
+      --team-member-card-flex-direction: column;
+
+      --team-name-gap: 6px;
+      --team-name-line-height: 20px;
+
+      --team-title-font-size:20px;
+
+      --main-grid-template-columns: 1fr;
+
+       /* Callforpaper page styling */
+       --columnn-2-grid-template-columns: auto;
+       --poster-deadline-height: 250px;
+
+       --gallery-container-grid-template-columns: 1fr;
+
+    }
+}
+
+
+@media screen and (max-width: 330px)  {
+  :root{
+  --nav-logo-width: 10%; 
+  --nav-icon-width: 70px;
+  }
+}
+
+
+@media screen and (max-width: 817px){
   :root{
 
     /* Footer styling  */
     --footer-li-span:none;
     --footer-flex-direction:column;
     --footer-align-items:center;
-  }
-=======
->>>>>>> refs/remotes/origin/v2.0
+
+
+    /* Header styling */
+    --navbar-container-padding:0 5px;
+    --nav-menu-mobile-display:inline-block;
+    --navbar-links-width: 100%;
+    --navbar-links-right:-110px;
+    --navbar-links-text-align:center;
+    --navbar-links-min-height:100vh;
+    --navbar-links-display:flex;
+    --navbar-links-flex-direction:column;
+    --navbar-links-top:80px;
+    --navbar-links-visibility: hidden;
+    --navbar-links-transition:all .1s ease;
+    --navbar-links-z-index:10000;
+    --nav-link-hover-background-color:var(--brand-green);
+    --navbar-links-opacity: 0;
+
+    --active-nav-menu-background-color:#000;
+    --active-nav-menu-right:0;
+    --active-nav-menu-opacity:1;
+    --active-nav-menu-position:fixed;
+    --active-nav-menu-z-index:1;
+    --active-nav-menu-padding-top:40px;
+
+    --nav-link-hover-padding:15px 40px;
+    --nav-link-hover-border-radius: 5px;
+
+    --nav-btn-padding:10px 30px; 
+
+    --nav-menu-mobile:inline-block;
+    --icon-width:70px;
+
+
+
+    /* Schedule styling */
+    --agenda-time-padding: 19px;
+    --agenda-time-width: 28%;
+    --speaker-container-flex-direction: column;
+    --speaker-container-gap: 10px;
+
+    --gallery-container-grid-template-columns: auto;
+
+
+    --columnn-2-grid-template-columns: auto;
+
 }
+
+}
+
+
+
+  @media screen and (min-width:750px) {
+    :root {
+         /* Home styling */
+      
+      --main-p-font-size: 20px;
+      --main-line-height:35px;
+
+      
+      --main-gap:10px;
+      
+      --main-p-font-size: 20px;
+      --main-h1-font-size:40px;
+      --main-p-line-height: 35px;
+    }
+}
+
