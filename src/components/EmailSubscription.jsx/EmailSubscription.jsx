@@ -64,7 +64,7 @@ const EmailSubscription = ( )=>{
                                 </form>)
                             }
                         />*/}
-                        <button type="submit"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdSnXsxJcOtaP3WHr2k3VjY28tbBXuv9C2cYsBeSTrI_2_hzg/viewform?usp=sf_link" target={'blank_'}>Subscribe ➚</a></button>
+                        <button className="submit" type="submit"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdSnXsxJcOtaP3WHr2k3VjY28tbBXuv9C2cYsBeSTrI_2_hzg/viewform?usp=sf_link" target={'blank_'}>Subscribe ➚</a></button>
                     </div>
             </div>
         </section>

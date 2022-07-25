@@ -38,6 +38,13 @@ button{
     transition: all .5s ease-out;
 }
 
+.submit {
+    background-color: black;
+}
+
+
+
+
 form span {
     font-size: 15px;
     background: #ffff;
