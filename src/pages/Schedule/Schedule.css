@@ -6,7 +6,7 @@
 
 .navigation {
     flex-wrap: wrap;
-    margin-top: 100px;
+ 
 }
 
 .button{
@@ -82,20 +82,23 @@
     margin-bottom: 50px;
     flex-direction: var(--speaker-container-flex-direction);
     gap:var(--speaker-container-gap);
+   
 }
 
 .speaker-details-content {
-    padding: 30px;
+    padding: 10px;
+    text-align: justify;
+    width: 100%;
 }
 
-.speaker-details-content > *{
-    padding-bottom: 10px;
-}
+
 
 .speaker-picture {
     border: 10px solid var(--brand-yellow);
-    width:100%;
-    height: 370px;
+    width: var( --speaker-container-picture-width);
+    height: var( --speaker-container-picture-height);
+    
+   
 }
 
 .speaker-picture img {

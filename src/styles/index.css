@@ -37,6 +37,10 @@ ul {
   display: flex;
   justify-content: center;
 }
+.flextext{
+  display: flex;
+  align-items: center;
+}
 
 
 
@@ -45,20 +49,11 @@ ul {
   margin: 40px auto;
 }
 
-
-
-
-
 :root{
   --brand-red:#c91f64;
   --brand-green:#084f41;
   --brand-yellow:#f49c0f;
   --brand-purple:#62156f;
-  --background-white: #f2f2f2;
-
-
-  /* FOOTER STYLES  */
-  
   --background-white: #f2f2f2; 
   --background-black: #0B111A;
 
@@ -94,7 +89,9 @@ ul {
     /* Gallery */
    --gallery-container-grid-template-columns: 1fr 1fr;
 
+  /* Home  */
 
+  --main-grid-template-columns:1fr 1fr;
 
       /* Schedule */
      --button-padding: 20px;
@@ -123,6 +120,12 @@ ul {
   :root {
     --team-member-card-align-itmes: center;
     --team-member-card-flex-direction:column;
+
+    /* Schedule page  */
+    --speaker-container-flex-direction:column;
+    --speaker-container-picture-height:400px;
+    --speaker-container-picture-width:100%;
+    --main-grid-template-columns:1fr;
   }
 }
 
@@ -138,7 +141,7 @@ ul {
         /* Home Styling */
       --hero-info-width: 90%;
       --hero-info-h2-font-size:18px;
-
+      
 
 
       --hero-height: 55vh;
@@ -158,6 +161,7 @@ ul {
       --button-font-size:16px;
       --agenda-time-padding: 0;
 
+       --speaker-container-flex-direction:column;
 
 
   }
@@ -261,23 +265,16 @@ ul {
   @media screen and (min-width:750px) {
     :root {
          /* Home styling */
-      --main-about-width:710px;
+      
       --main-p-font-size: 20px;
       --main-line-height:35px;
 
-      --main-grid-template-columns: 1fr 1fr;
+      
       --main-gap:10px;
       
       --main-p-font-size: 20px;
       --main-h1-font-size:40px;
       --main-p-line-height: 35px;
     }
-
 }
 
-
-  @media screen and (max-width: 968px)  {
-    :root{
-    --team-member-card-gap:45px;
-    }
-  }

@@ -21,6 +21,10 @@ input {
     width: 60%;
 }
 
+button a{
+    text-decoration: none;
+    color: white;
+}
 button{
     background-color: black;
     color: white;
@@ -33,6 +37,13 @@ button{
     border: 2px solid ;
     transition: all .5s ease-out;
 }
+
+.submit {
+    background-color: black;
+}
+
+
+
 
 form span {
     font-size: 15px;

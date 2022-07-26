@@ -3,6 +3,9 @@ import './FAQS.css';
 import PageHeader from '../../components/PageHeader/PageHeader';
 import {FAQData } from '../../utils/data';
 import { FaAngleDown, FaAngleUp } from 'react-icons/fa';
+import SEO from '../SEO';
+
+
 
 const FAQS = () => {
    const [click, setClick] = useState(false);
@@ -15,6 +18,7 @@ const toggle = (id) =>{
 }
   return (
     <div className="main-content" id="#top">
+    <SEO title={'FAQS -- GIS Festival 2022'} url={'https://gisfest.org/faqs'}/>
       <PageHeader title={'Frequently Asked Questions'} color={'#c91f64'} />
       <div className='page-content'>
           {FAQData.map((FAQ, id)=> {

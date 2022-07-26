@@ -42,7 +42,7 @@ main{
     background: black;
     color: white;
     width: 100%;
-    padding: 6%;
+    padding: 2%;
     padding-bottom: 65px;
     display: grid;
     grid-template-columns: var(--main-grid-template-columns);

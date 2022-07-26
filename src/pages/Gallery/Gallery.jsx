@@ -11,11 +11,12 @@ import pic_7 from "../../media/images/gallery/Rectangle_42.jpg"
 import pic_8 from "../../media/images/gallery/Rectangle_43.jpg"
 import pic_9 from "../../media/images/gallery/Rectangle_44.jpg"
 import pic_10 from "../../media/images/gallery/Rectangle_45.jpg"
-
+import SEO from '../SEO';
 
 const Gallery = () => {
   return (
     <div className="main-content" id="#top">
+    <SEO title={'Gallery -- GIS Festival 2022'} url={'https://gisfest.org/gallery'}/>
         <PageHeader title={'Gallery'} color={'#084f41'} />
         <div className='gallery-conatiner page-content  grid-container'>
             <div className='picture'>

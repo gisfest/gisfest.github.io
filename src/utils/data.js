@@ -29,12 +29,7 @@ import oluwadamilola_salua from '../media/images/team/oluwadamilola_salau.webp';
 export const socialMediaLinks=[
     {
         "social":"Gmail",
-        "url":"mailto:gisfestival@gmail.com",
-        "handle":"GIS Festival"
-    },
-    {
-        "social":"Youtube",
-        "url":"#",
+        "url":"mailto:support@gisfest.org",
         "handle":"GIS Festival"
     },
     {
@@ -64,37 +59,48 @@ export const socialMediaLinks=[
 export const MenuItems=[
     {
        "title": "Home",
-       "url": "/",
+       "url": "/#top",
        "cName": "nav-link"
     },
-    {
-        "title": "Schedule",
-        "url": "/schedule",
-        "cName": "nav-link"
-     },
-     {
-        "title": "Travel",
-        "url": "/travel",
-        "cName": "nav-link"
-     },
-     {
-        "title": "Team",
-        "url": "/team",
-        "cName": "nav-link"
-     },
-     {
-        "title": "Gallery",
-        "url": "/gallery",
-        "cName": "nav-link"
-     },
+    // {
+    //     "title": "Schedule",
+    //     "url": "/schedule",
+    //     "cName": "nav-link"
+    //  },
+    //  {
+    //     "title": "Travel",
+    //     "url": "/travel",
+    //     "cName": "nav-link"
+    //  },
+    //  {
+    //     "title": "Hackhathon",
+    //     "url": "/hackathon",
+    //     "cName": "nav-link"
+    //  },
+    
+    //  {
+    //     "title": "Gallery",
+    //     "url": "/gallery",
+    //     "cName": "nav-link"
+    //  },
      {
         "title": "FAQS",
-        "url": "/FAQS",
+        "url": "/faqs#top",
         "cName": "nav-link"
      },
-     {  
-        "title": "Call for Paper",
-        "url": "/CallForPaper",
+    //  {  
+    //     "title": "Call for Paper",
+    //     "url": "/CallForPaper",
+    //     "cName": "nav-link"
+    //  },
+     {
+        "title": "Team",
+        "url": "/team#top",
+        "cName": "nav-link"
+     },
+     {
+        "title": "Call For Speakers",
+        "url": "/call_for_speakers#top",
         "cName": "nav-link"
      }
        
@@ -105,29 +111,40 @@ export const MenuItems=[
 export const footerMenuItems = [
   
     {
+        "title": "Subscribe",
+        "url": "/#email-subscription",
+        "sign": "|"
+     },
+     {
         "title": "Organizing Team",
         "url": "/team",
         "sign": "|"
      },
-     {
-        "title": "Schedule",
-        "url": "/schedule",
-        "sign": "|"
-     },
-     {
-        "title": "Travel",
-        "url": "/travel",
-        "sign": "|"
-     },
-      {
-        "title": "Gallery",
-        "url": "/gallery",
-        "sign": "|"
-     },
+    //  {
+    //     "title": "Schedule",
+    //     "url": "/schedule",
+    //     "sign": "|"
+    //  },
+    //  {
+    //     "title": "Hackathon",
+    //     "url": "/hackathon",
+    //     "sign": "|"
+    //  },
+    //  {
+    //     "title": "Travel",
+    //     "url": "/travel",
+    //     "sign": "|"
+    //  },
+    //   {
+    //     "title": "Gallery",
+    //     "url": "/gallery",
+    //     "sign": "|"
+    //  },
      {
         "title": "FAQS",
-        "url": "/FAQS"
+        "url": "/faqs"
      },
+    
 ]
 
 // All Team's data 
@@ -250,24 +267,56 @@ export const teamData = [
 export const FAQData = [
     {
         "id": 0,
-        "Question":"Do I have to pay/register to attend SotM Online ?",
-        "Answer":"No, SotM2020 Online is free to attend and no registration is required."
+        "Question":"When and where will GISFest take place?",
+        "Answer":"GISFest will take place on the 11-12th of November. The conference will take place at Lagos, Nigeria."
     },
     {
         "id": 1,
-        "Question":"How can I watch the talks ?",
-        "Answer":"The talks from the main track and the academic track will be streamed on streaming.media.ccc.de. You’ll find the link prominently displayed at the top of the SotM Homepage."
+        "Question":"What is the ticket cost for GISFest?",
+        "Answer":"The ticket cost is $10USD for students and $30 for Professionals. Transactions will be charged in your local currency."
     },
     {
         "id": 2,
-        "Question":"How are the sessions structured ?",
-        "Answer":"Sessions will start with a 20min talk, then Q&A (see below), and a transition into the next talk. 45min in total"
+        "Question":"What is included in the ticket?",
+        "Answer":"You will receive access to GISFest (in-person) including the hackathon, trainings, certification, workshops, all sessions, all meals and all social activities."
      },
     {
         "id": 3,
-        "Question":"How can I interact with the speakers and other members of the audience ?",
-        "Answer":"You can interact with the speakers by asking questions in the Question & Answer sessions. You can interact with others in the self-organized sessions and in the community channels."
-    }
+        "Question":"What is the refund policy?",
+        "Answer":"Tickets are non-refundable, but they are transferable. In case of emergencies, please email support@gisfest.org."
+    },
+    {
+        "id": 4,
+        "Question":"What is the refund policy?",
+        "Answer":"Tickets are non-refundable, but they are transferable. In case of emergencies, please email support@gisfest.org."
+    },
+    {
+        "id": 5,
+        "Question":"How do I become a Speaker?",
+        "Answer":"Submit your session ideas to the call for proposals by September 31st, 2022."
+    },
+    {
+        "id": 6,
+        "Question":"How do I become a Sponsor?",
+        "Answer":" If you have questions about sponsorship, please email sponsor@gisfest.org."
+    },
+    {
+        "id": 7,
+        "Question":"Will sessions be recorded?",
+        "Answer":"All conference sessions at GISFest 2022 will be recorded and available to attendees after the event."
+    },
+    {
+        "id": 8,
+        "Question":"I am coming from abroad and will need invitation letter for Visa application, what is the procedure?",
+        "Answer":`Please send a request to visa@gisfest.org and include the following (Full name of person for whom you are requesting the letter, Date of Birth,
+            Passport Number and include Country of Issuance, issue date and expiration date, Job Title, Company Name)`
+    },
+    {
+        "id": 9,
+        "Question":"Who should I contact if I have questions?",
+        "Answer":`Please email support@gisfest.org if you have questions.`
+    },  
+
 ]
 
 
@@ -397,5 +446,100 @@ export const speakerData = [
         "lesson": "Lessons learned from a building footprints import",
         "picture": oluwadamilola_salua
 
+    }
+]
+
+
+//session data 
+export const CallForSpeakersSessionDetails = [
+    {
+        "sessionType": "Workshop - Technical deep dive into tool and techniques implementation",
+        "sessionInfo": "We are looking for workshop focused on the following areas:",
+        "sessionAreas": [
+                {
+                    "Name": "Geodev",
+                    "info":" – WebGIS  / Python/JavaScript etc.",
+                    "Description": "As our spatially enabled society grows, so does the need to create functional and usable webmaps, visualizations and expand coding capabilities. The geospatial development workshop is designed to teach and expose conference participants to different techniques for geospatial development by utilizing different tools such as python, JavaScript etc."
+                },
+                {
+                    "Name": "Spatial Analytics",
+                    "info":" – Methodologies / UAV data processing etc.",
+                    "Description": "Spatial Analytics remains the backbone of all decision-making. In order to fully reach an appropriate conclusion, we utilize location as the connective thread to uncover hidden patterns, improve predictive modeling, and create a competitive edge. For the Spatial Analytics section, participants will get to interact with case studies that evoke critical spatial cognition thinking to create appropriate geo visualization that is backed by solid geostatistical theory"
+                },
+                {
+                    "Name": "Geo AI",
+                    "info":" – Machine learning, Deep learning etc.",
+                    "Description": "The science and technology of Geo AI have come a long way. Today’s executives are thinking about areas including market planning, site selection, product selection, price optimization, where they want to use Geo AI to better anticipate outcomes for their business and make better decisions based on these insights. For the Geo AI session, participants will get to learn different Geo AI techniques and tools that can be useful to them as an individual or corporate entity."
+                },
+                {
+                    "Name": "Cloud Computing",
+                    "info":" – GEE / Cloud platform etc.",
+                    "Description": "With the growth of data in every sphere of our life. Data can be mined and stored by virtually all sensors around us making the amount of data for processing too much to handle by a standalone computer. To mitigate these issues and provide scalability, cloud computing has become an on-demand tool for data storage and processing. In the geospatial industry,  this comes as a collection of geospatial datasets and satellite imageries with on-the-go scale analysis tools. In this section, participants will get to learn,  interact and utilise the most popular cloud computing platforms and resources."
+                },
+
+        ]
+    },
+    {
+        "sessionType": "  Geo Innovation - Innovative/Enterprise use case of geospatial technology -Innovative solution integrating geospatial technology. ",
+        "sessionInfo": "We are looking for workshop focused on the following areas:",
+        "sessionAreas": [
+            {
+                "Name": "Transportation and Logistics",
+                "Description": ""
+            },
+            {
+                "Name": "Fintech and Blockchain technology",
+                "Description": ""
+            },
+            {
+                "Name": "Ocean conservation and Management",
+                "Description": ""
+            },
+            {
+                "Name": "Security and Defense",
+                "Description": ""
+            },
+            {
+                "Name": "Utility Distribution",
+                "Description": ""
+            },
+            {
+                "Name": "Retail and e-commerce ",
+                "Description": ""
+            },
+            {
+                "Name": "Health",
+                "Description": ""
+            },
+            {
+                "Name": "Climate change and Green transitioning",
+                "Description": ""
+            },
+            {
+                "Name": "Urban planning and Smart City ",
+                "Description": ""
+            },
+            {
+                "Name": "Oil, Gas, and Solid Minerals",
+                "sessionAreaDescription": ""
+            },
+            {
+                "Name": "Resource Allocation",
+                "Description": ""
+            },
+            {
+                "Name": "Food Security, Forestry, and Agriculture",
+                "Description": ""
+            },
+            {
+                "Name": "Telecommunication",
+                "Description": ""
+            },
+
+            {
+                "Name": "Waste Management ",
+                "Description": ""
+            },
+        ]
     }
 ]

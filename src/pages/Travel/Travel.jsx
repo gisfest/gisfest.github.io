@@ -1,10 +1,12 @@
 import React from 'react';
 import './Travel.css';
 import PageHeader from '../../components/PageHeader/PageHeader';
+import SEO from '../SEO';
 
 const Travel = () => {
   return (
     <div className="main-content" id="#top">
+    <SEO title={'Travel -- GIS Festival 2022'} url={'https://gisfest.org/travel'}/>
         <PageHeader title={'Travel'} color={'#62156f'} />
         <div className='page-content travel-guide-container'>
             <div className='travel-content'>
