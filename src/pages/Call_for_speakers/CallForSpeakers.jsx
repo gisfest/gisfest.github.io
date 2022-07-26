@@ -42,7 +42,7 @@ const CallForSpeakers = () => {
            <div className='poster-deadline'>
               <h1>Deadline</h1>
               <h3>17th</h3>
-              <h3>August</h3>
+              <h3>September,</h3>
               <h3>2022</h3>
            </div>
               <a href='https://forms.gle/vAoVBcELPoRc8vDV7' target={'blank_'}>

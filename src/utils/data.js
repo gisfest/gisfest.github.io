@@ -100,7 +100,7 @@ export const MenuItems=[
      },
      {
         "title": "Call For Speakers",
-        "url": "/call_for_speakers",
+        "url": "/call_for_speakers#top",
         "cName": "nav-link"
      }
        
