@@ -1,4 +1,5 @@
 import React from 'react';
+import Deadline from '../../components/Deadline/Deadline';
 import PageHeader from '../../components/PageHeader/PageHeader';
 import { talkTypes, workshopTypes } from '../../utils/data';
 import './CallForSpeakers.css';
@@ -66,19 +67,14 @@ const CallForSpeakers = () => {
               </ul>
           </div>
         </div>
-        <div className='column'>
-           <div className='poster-deadline'>
-              <h1>Deadline</h1>
-              <h3>11th</h3>
-              <h3>September</h3>
-              <h3>2022</h3>
-              <button type="submit"><a href="https://bit.ly/gisfest" target={'blank_'}>Submit Now! ➚</a></button>
-           </div>
-           
-        </div>
-
-       
-
+        <Deadline
+          day={'13'}
+          month={'August'}
+          year={'2022'}
+          color={'#62156f'}
+          btnText={'Submit Now!'}
+          link={'https://bit.ly/gisfest'}
+        />
       </div>  
     </div>
   )

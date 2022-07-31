@@ -10,6 +10,7 @@ import FAQS from './pages/FAQS/FAQS';
 // import Travel from './pages/Travel/Travel';
 import Schedule from './pages/Schedule/Schedule';
 import CallForSpeakers from './pages/CallForSpeakers/CallForSpeakers';
+import Hackathon from './pages/Hackathon/Hackathon';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/faqs" element={<FAQS />}/>
           <Route path="/call-for-speakers"  element={<CallForSpeakers />}/>
           <Route path="/schedule" element={<Schedule/>}/>
+          <Route path="/Hackathon" element={<Hackathon />}/>
         </Routes>
         <Footer />
       </Router>

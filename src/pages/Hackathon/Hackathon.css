@@ -1,0 +1,66 @@
+.Hackathon-focus-content {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+
+.Hackathon-prize {  
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 40px;
+}
+
+.hackathon > * {
+    margin-bottom: 40px;
+}
+
+.hackathon-goal-content > * {
+    margin-bottom: 14px;
+}
+
+.hackathon-goal-content h1 {
+    font-size: 40px;
+}
+
+.prize-card{
+    padding: 20px;
+    width: 320px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+}
+
+.prize-card > *,
+.prize-card ul li{
+    margin-bottom: 10px;
+}
+
+
+.trophy-icon {
+    font-size: 50px;
+}
+
+.prize-icon {
+    font-size: 20px;
+}
+.prize-list {
+    display: inline-block;
+}
+.prize-list > * {
+    margin-right: 5px;
+}
+
+.prize-card ul >* {
+    margin-bottom: 10px;
+}
+
+.Hackathon-focus-content {
+    list-style-type: disc;
+    margin-left: 18px;
+}
+
+.Hackathon-industry-details{
+    margin-bottom: 5px;
+}

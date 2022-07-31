@@ -72,11 +72,11 @@ export const MenuItems=[
     //     "url": "/travel",
     //     "cName": "nav-link"
     //  },
-    //  {
-    //     "title": "Hackhathon",
-    //     "url": "/hackathon",
-    //     "cName": "nav-link"
-    //  },
+     {
+        "title": "Hackathon",
+        "url": "/hackathon#top",
+        "cName": "nav-link"
+     },
     
     //  {
     //     "title": "Gallery",
@@ -125,11 +125,11 @@ export const footerMenuItems = [
         "url": "/call-for-speakers#top",
         "sign": "|"
      },
-    //  {
-    //     "title": "Hackathon",
-    //     "url": "/hackathon",
-    //     "sign": "|"
-    //  },
+     {
+        "title": "Hackathon",
+        "url": "/hackathon#top",
+        "sign": "|"
+     },
     //  {
     //     "title": "Travel",
     //     "url": "/travel",
@@ -480,4 +480,22 @@ export const talkTypes = [
     'Telecommunication',
     'Waste Management',
 
+]
+
+export const hackathonPrizeDetails = [
+    {
+        "name": "1st Team",
+        "prizeList1": "Certificate of Achievement + 6 months internship at a top-level firm?",
+        "prizeList2":"$2000 cash prize"
+    },
+    {
+        "name": "2nd Team",
+        "prizeList1": "Certificate of Achievement + 4 months internship at a top-level firm?",
+        "prizeList2":"$2000 cash prize"
+    },
+    {
+        "name": "3rd Team",
+        "prizeList1": "Certificate of Achievement + 3 months internship at a top-level firm?",
+        "prizeList2":"$2000 cash prize"
+    }
 ]
